@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: rgb(58, 48, 48);
+    font-size: 3rem;
+}
+.game-title{
+    color: bisque;
+    font-weight: bold;
+    text-align: center;
+}
+.main-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    column-gap: 10px;
+    row-gap:10px;
+    margin: auto;
+    text-align: center;
+
+}
+.cell{
+    display: grid;
+    border: 5px solid rgb(192, 182, 182);
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px;
+    font-size: 10rem;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.js-restart-btn {
+    font-size: 3rem;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.js-reset-board-btn{
+    font-size: 3rem;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.js-game-result-txt{
+    color: azure;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.js-update-scoor{
+    color: azure;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
