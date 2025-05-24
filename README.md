@@ -1,13 +1,13 @@
 # Tic Tac-Toe- Simple Game App
 Tic-Tac-Toe Game as known as X-O Game crated by JavaScript and HTML and responsive UI using CSS.
 
-##features
--> Human based Game.
--> Winner, Draw managed Function.
--> Board Clear function.
--> Total win, loss, draw save on localstorage.
--> Reset local storage.
--> Full Resposive for (Mobile, Tablet, Laptop, Desktop).
+## Features
+- Human based Game.
+- Winner, Draw managed Function.
+- Board Clear function.
+- Total win, loss, draw save on localstorage.
+- Reset local storage.
+- Full Resposive for (Mobile, Tablet, Laptop, Desktop).
 
 ## 🛠 Tech Stack
 
